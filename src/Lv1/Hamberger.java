@@ -1,8 +1,6 @@
 package Lv1;
 
 public class Hamberger {
-
-
 	public static void main(String[] args) {
 		  int[] ingredient = {2, 1, 1, 2, 3, 1, 2, 3, 1};
 		  int[] stack = new int[ingredient.length];
@@ -21,6 +19,5 @@ public class Hamberger {
 	            }
 	        }
 	        System.out.println(answer);
-
 	}
 }
