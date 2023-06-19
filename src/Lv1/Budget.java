@@ -14,9 +14,6 @@ public class Budget {
 	    for(int i=0; i<d.length;i++){
 	        if(budget >= d[i]){
 	            budget -= d[i]; 
-	            System.out.println("budget"+budget);
-	            System.out.println("i"+i);
-	       
 	            answer = i+1;
 	            
 	        }
